@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54E9672921E69DA7DCD7EDB1 /* libPods-OCTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7B442E628F3D7696943513 /* libPods-OCTestTests.a */; };
 		5863C40A1FB4633D00816386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863C4091FB4633D00816386 /* main.m */; };
 		5863C40D1FB4633D00816386 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863C40C1FB4633D00816386 /* AppDelegate.m */; };
 		5863C4101FB4633D00816386 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863C40F1FB4633D00816386 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		5863C4181FB4633D00816386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5863C4161FB4633D00816386 /* LaunchScreen.storyboard */; };
 		5863C4231FB4633D00816386 /* OCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863C4221FB4633D00816386 /* OCTestTests.m */; };
 		5863C42E1FB4633D00816386 /* OCTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863C42D1FB4633D00816386 /* OCTestUITests.m */; };
+		9799E96059A0837C73014280 /* libPods-OCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC02F2410B22DE279183482C /* libPods-OCTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		281007588D1A3412E6E5F6A9 /* Pods-OCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTest/Pods-OCTest.debug.xcconfig"; sourceTree = "<group>"; };
+		44278921C5A0B56C4C889F3C /* Pods-OCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTest/Pods-OCTest.release.xcconfig"; sourceTree = "<group>"; };
 		5863C4051FB4633D00816386 /* OCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5863C4091FB4633D00816386 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5863C40B1FB4633D00816386 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		5863C4291FB4633D00816386 /* OCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5863C42D1FB4633D00816386 /* OCTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestUITests.m; sourceTree = "<group>"; };
 		5863C42F1FB4633D00816386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D92407126265F8DF45B042 /* Pods-OCTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTestTests/Pods-OCTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		994B8F6A0CD9659C8D851CD7 /* Pods-OCTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTestTests/Pods-OCTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E7B442E628F3D7696943513 /* libPods-OCTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC02F2410B22DE279183482C /* libPods-OCTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9799E96059A0837C73014280 /* libPods-OCTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E9672921E69DA7DCD7EDB1 /* libPods-OCTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				5863C4211FB4633D00816386 /* OCTestTests */,
 				5863C42C1FB4633D00816386 /* OCTestUITests */,
 				5863C4061FB4633D00816386 /* Products */,
+				A3686038CCB451C0BABE2AFA /* Pods */,
+				F8BB19C37BA941C1B7E00B80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +152,26 @@
 			path = OCTestUITests;
 			sourceTree = "<group>";
 		};
+		A3686038CCB451C0BABE2AFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				281007588D1A3412E6E5F6A9 /* Pods-OCTest.debug.xcconfig */,
+				44278921C5A0B56C4C889F3C /* Pods-OCTest.release.xcconfig */,
+				994B8F6A0CD9659C8D851CD7 /* Pods-OCTestTests.debug.xcconfig */,
+				58D92407126265F8DF45B042 /* Pods-OCTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8BB19C37BA941C1B7E00B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC02F2410B22DE279183482C /* libPods-OCTest.a */,
+				9E7B442E628F3D7696943513 /* libPods-OCTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5863C4321FB4633D00816386 /* Build configuration list for PBXNativeTarget "OCTest" */;
 			buildPhases = (
+				2D7DE8C91014D9BEA80186DB /* [CP] Check Pods Manifest.lock */,
 				5863C4011FB4633D00816386 /* Sources */,
 				5863C4021FB4633D00816386 /* Frameworks */,
 				5863C4031FB4633D00816386 /* Resources */,
+				56514E802488B4B6903F27F3 /* [CP] Embed Pods Frameworks */,
+				F96BF789DD6715021C6E10B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5863C4351FB4633D00816386 /* Build configuration list for PBXNativeTarget "OCTestTests" */;
 			buildPhases = (
+				D92096E171B6842C751930B9 /* [CP] Check Pods Manifest.lock */,
 				5863C41A1FB4633D00816386 /* Sources */,
 				5863C41B1FB4633D00816386 /* Frameworks */,
 				5863C41C1FB4633D00816386 /* Resources */,
+				E1E7763A636BEFA14FF5E503 /* [CP] Embed Pods Frameworks */,
+				6B05E89D368D228281C9801E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,11 +250,13 @@
 					};
 					5863C41D1FB4633D00816386 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UF7L9NXVHG;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5863C4041FB4633D00816386;
 					};
 					5863C4281FB4633D00816386 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UF7L9NXVHG;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5863C4041FB4633D00816386;
 					};
@@ -268,6 +308,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D7DE8C91014D9BEA80186DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56514E802488B4B6903F27F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTest/Pods-OCTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B05E89D368D228281C9801E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTestTests/Pods-OCTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D92096E171B6842C751930B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E7763A636BEFA14FF5E503 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTestTests/Pods-OCTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96BF789DD6715021C6E10B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTest/Pods-OCTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5863C4011FB4633D00816386 /* Sources */ = {
@@ -425,6 +558,7 @@
 		};
 		5863C4331FB4633D00816386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281007588D1A3412E6E5F6A9 /* Pods-OCTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UF7L9NXVHG;
@@ -438,6 +572,7 @@
 		};
 		5863C4341FB4633D00816386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44278921C5A0B56C4C889F3C /* Pods-OCTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UF7L9NXVHG;
@@ -451,8 +586,10 @@
 		};
 		5863C4361FB4633D00816386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994B8F6A0CD9659C8D851CD7 /* Pods-OCTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UF7L9NXVHG;
 				INFOPLIST_FILE = OCTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pa.yy.OCTestTests;
@@ -463,8 +600,10 @@
 		};
 		5863C4371FB4633D00816386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D92407126265F8DF45B042 /* Pods-OCTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UF7L9NXVHG;
 				INFOPLIST_FILE = OCTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pa.yy.OCTestTests;
@@ -476,6 +615,7 @@
 		5863C4391FB4633D00816386 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = UF7L9NXVHG;
 				INFOPLIST_FILE = OCTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pa.yy.OCTestUITests;
@@ -487,6 +627,7 @@
 		5863C43A1FB4633D00816386 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = UF7L9NXVHG;
 				INFOPLIST_FILE = OCTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pa.yy.OCTestUITests;
