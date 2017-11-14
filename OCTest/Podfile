@@ -6,4 +6,5 @@ end
 target 'OCTestTests' do
     pod 'AFNetworking', '~> 2.5.0'
     pod 'STAlertView', '~> 1.0.0'
+    pod 'Kiwi', '~> 2.4.0'
 end

@@ -20,16 +20,19 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Kiwi (2.4.0)
   - STAlertView (1.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.0)
+  - Kiwi (~> 2.4.0)
   - STAlertView (~> 1.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
   STAlertView: bfcbdfed87dc7bfb35c04acd5d96aecebb923d48
 
-PODFILE CHECKSUM: 218fe6ec66254d80a427c49875f496a3d102eb3f
+PODFILE CHECKSUM: ce9b8dc484b1f158d0e82ac0884783f4bff589a2
 
 COCOAPODS: 1.1.1

@@ -16,6 +16,14 @@
 		5863C4181FB4633D00816386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5863C4161FB4633D00816386 /* LaunchScreen.storyboard */; };
 		5863C4231FB4633D00816386 /* OCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863C4221FB4633D00816386 /* OCTestTests.m */; };
 		5863C42E1FB4633D00816386 /* OCTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863C42D1FB4633D00816386 /* OCTestUITests.m */; };
+		5897611E1FBA90BF000381DF /* VVStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5897611D1FBA90BF000381DF /* VVStack.m */; };
+		589761221FBA9A7D000381DF /* VVStackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 589761211FBA9A7D000381DF /* VVStackSpec.m */; };
+		589761241FBA9B35000381DF /* VVStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 589761231FBA9B35000381DF /* VVStackTests.m */; };
+		589761281FBAE34B000381DF /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 589761271FBAE34B000381DF /* RequestModel.m */; };
+		5897612A1FBAE554000381DF /* RequestModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 589761291FBAE554000381DF /* RequestModelSpec.m */; };
+		58A3A65F1FB94083000EC5B1 /* RatingCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3A65E1FB94083000EC5B1 /* RatingCalculator.m */; };
+		58A3A6621FB94203000EC5B1 /* RatingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3A6611FB94203000EC5B1 /* RatingService.m */; };
+		58A3A6651FB942D3000EC5B1 /* RatingCalculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3A6641FB942D3000EC5B1 /* RatingCalculatorTest.m */; };
 		9799E96059A0837C73014280 /* libPods-OCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC02F2410B22DE279183482C /* libPods-OCTest.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +63,18 @@
 		5863C4291FB4633D00816386 /* OCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5863C42D1FB4633D00816386 /* OCTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestUITests.m; sourceTree = "<group>"; };
 		5863C42F1FB4633D00816386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5897611C1FBA90BF000381DF /* VVStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVStack.h; sourceTree = "<group>"; };
+		5897611D1FBA90BF000381DF /* VVStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVStack.m; sourceTree = "<group>"; };
+		589761211FBA9A7D000381DF /* VVStackSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVStackSpec.m; sourceTree = "<group>"; };
+		589761231FBA9B35000381DF /* VVStackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVStackTests.m; sourceTree = "<group>"; };
+		589761261FBAE34B000381DF /* RequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
+		589761271FBAE34B000381DF /* RequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
+		589761291FBAE554000381DF /* RequestModelSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestModelSpec.m; sourceTree = "<group>"; };
+		58A3A65D1FB94083000EC5B1 /* RatingCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingCalculator.h; sourceTree = "<group>"; };
+		58A3A65E1FB94083000EC5B1 /* RatingCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingCalculator.m; sourceTree = "<group>"; };
+		58A3A6601FB94203000EC5B1 /* RatingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingService.h; sourceTree = "<group>"; };
+		58A3A6611FB94203000EC5B1 /* RatingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingService.m; sourceTree = "<group>"; };
+		58A3A6641FB942D3000EC5B1 /* RatingCalculatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingCalculatorTest.m; sourceTree = "<group>"; };
 		58D92407126265F8DF45B042 /* Pods-OCTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTestTests/Pods-OCTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		994B8F6A0CD9659C8D851CD7 /* Pods-OCTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTestTests/Pods-OCTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E7B442E628F3D7696943513 /* libPods-OCTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +111,7 @@
 		5863C3FC1FB4633D00816386 = {
 			isa = PBXGroup;
 			children = (
+				58A3A65C1FB93FAA000EC5B1 /* Classes */,
 				5863C4071FB4633D00816386 /* OCTest */,
 				5863C4211FB4633D00816386 /* OCTestTests */,
 				5863C42C1FB4633D00816386 /* OCTestUITests */,
@@ -122,6 +143,8 @@
 				5863C4161FB4633D00816386 /* LaunchScreen.storyboard */,
 				5863C4191FB4633D00816386 /* Info.plist */,
 				5863C4081FB4633D00816386 /* Supporting Files */,
+				589761261FBAE34B000381DF /* RequestModel.h */,
+				589761271FBAE34B000381DF /* RequestModel.m */,
 			);
 			path = OCTest;
 			sourceTree = "<group>";
@@ -137,8 +160,12 @@
 		5863C4211FB4633D00816386 /* OCTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				589761231FBA9B35000381DF /* VVStackTests.m */,
 				5863C4221FB4633D00816386 /* OCTestTests.m */,
 				5863C4241FB4633D00816386 /* Info.plist */,
+				58A3A6641FB942D3000EC5B1 /* RatingCalculatorTest.m */,
+				589761211FBA9A7D000381DF /* VVStackSpec.m */,
+				589761291FBAE554000381DF /* RequestModelSpec.m */,
 			);
 			path = OCTestTests;
 			sourceTree = "<group>";
@@ -150,6 +177,20 @@
 				5863C42F1FB4633D00816386 /* Info.plist */,
 			);
 			path = OCTestUITests;
+			sourceTree = "<group>";
+		};
+		58A3A65C1FB93FAA000EC5B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				58A3A65D1FB94083000EC5B1 /* RatingCalculator.h */,
+				58A3A65E1FB94083000EC5B1 /* RatingCalculator.m */,
+				58A3A6601FB94203000EC5B1 /* RatingService.h */,
+				58A3A6611FB94203000EC5B1 /* RatingService.m */,
+				5897611C1FBA90BF000381DF /* VVStack.h */,
+				5897611D1FBA90BF000381DF /* VVStack.m */,
+			);
+			name = Classes;
+			path = ../../../../Classes;
 			sourceTree = "<group>";
 		};
 		A3686038CCB451C0BABE2AFA /* Pods */ = {
@@ -407,6 +448,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A3A6621FB94203000EC5B1 /* RatingService.m in Sources */,
+				589761281FBAE34B000381DF /* RequestModel.m in Sources */,
+				58A3A65F1FB94083000EC5B1 /* RatingCalculator.m in Sources */,
+				5897611E1FBA90BF000381DF /* VVStack.m in Sources */,
 				5863C4101FB4633D00816386 /* ViewController.m in Sources */,
 				5863C40D1FB4633D00816386 /* AppDelegate.m in Sources */,
 				5863C40A1FB4633D00816386 /* main.m in Sources */,
@@ -417,6 +462,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5897612A1FBAE554000381DF /* RequestModelSpec.m in Sources */,
+				58A3A6651FB942D3000EC5B1 /* RatingCalculatorTest.m in Sources */,
+				589761221FBA9A7D000381DF /* VVStackSpec.m in Sources */,
+				589761241FBA9B35000381DF /* VVStackTests.m in Sources */,
 				5863C4231FB4633D00816386 /* OCTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,6 +704,7 @@
 				5863C4341FB4633D00816386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5863C4351FB4633D00816386 /* Build configuration list for PBXNativeTarget "OCTestTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +713,7 @@
 				5863C4371FB4633D00816386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5863C4381FB4633D00816386 /* Build configuration list for PBXNativeTarget "OCTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +722,7 @@
 				5863C43A1FB4633D00816386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
